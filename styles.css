@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     background-color: beige;
+     font-family: 'Montserrat', 'Fraunces', sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 600px;
+    height: 500px;;
+}
+
+.image {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50%;
+    height: 100%;
+    background: url('images/image-product-desktop.jpg') center no-repeat;
+    background-size: auto 100%;
+}
+
+.perfume-wording {
+    width: 50%;
+    height: 100%;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.preview {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(211, 211, 211);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.headline {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    margin: 1rem o;
+}
+
+.desc {
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    color: rgb(17, 90, 17);
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-weight: 700;
+    position: relative;
+}
+
+.linethru {
+    text-decoration: line-through;
+    top: 12px;
+    right: 40px;
+    font-weight: 700;
+
+}
+
+.btn {
+    background-color: rgb(5, 80, 5);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.btn img {
+    padding-right: 20px;
+}
+
+.btn:active {
+    cursor: pointer;
+    background: rgb(2, 35, 2)
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
